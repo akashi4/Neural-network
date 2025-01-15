@@ -1,4 +1,4 @@
-import torch
-
-print(torch.cuda.device_count())
-print(torch.cuda.get_device_name(0))
+for i in range(201
+               ):
+    if i % 10 == 0:
+        print(i)
