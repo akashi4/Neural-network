@@ -1,5 +1,4 @@
-import numpy as np
+import torch
 
-np.random.seed(42)
-
-print(np.random.uniform(size=(2, 2)))
+print(torch.cuda.device_count())
+print(torch.cuda.get_device_name(0))
